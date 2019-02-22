@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>sign in</title>
+</head>
+<body>
+<center><p>
+  User Name: <input type="text" name="User name"><br></p>
+  Password: <input type="password" value="" id="myInput"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+  <a href="Log In.htm"><input type="Submit" value="Log In"></a>
+
+</center>
+</body>
+</html>
